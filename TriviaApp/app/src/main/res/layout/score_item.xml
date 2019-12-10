@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#0AFFFFFF">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/White"
+            android:layout_weight="6"
+            android:layout_margin="12dp"
+            android:textSize="17sp"
+            android:id="@+id/tvName"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/White"
+            android:layout_weight="3"
+            android:layout_margin="12dp"
+            android:textSize="14sp"
+            android:id="@+id/tvScoreAdapter"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:textColor="#8F8F8F"
+        android:id="@+id/dateTV"
+        android:textSize="10sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="SmallSp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

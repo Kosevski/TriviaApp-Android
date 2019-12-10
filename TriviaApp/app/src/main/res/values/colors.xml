@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303D8B</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#303D8B</color>
+    <color name="White">#ffffff</color>
+    <color name="QuestionItemBackground">#919191</color>
+    <color name="QuestionText">#333333</color>
+
+        <color name="GradientStart">#121838</color>
+        <color name="GradientCenter">#161B41</color>
+        <color name="GradientEnd">#3F51B5</color>
+</resources>

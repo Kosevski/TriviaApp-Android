@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "467769576177",
+    "firebase_url": "https://jsonfortriviaapp.firebaseio.com",
+    "project_id": "jsonfortriviaapp",
+    "storage_bucket": "jsonfortriviaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467769576177:android:f04a1ff58b8c3009997750",
+        "android_client_info": {
+          "package_name": "com.example.triviaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467769576177-16i8ps7hburv8s5rokvs4jjclp1k5ojl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOb4xKIuocj4Au0nmXBoyzwo3u4YC8e2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467769576177-16i8ps7hburv8s5rokvs4jjclp1k5ojl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

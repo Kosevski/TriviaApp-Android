@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_animation"
+    tools:context=".ScoreTable.AddScoreActivity">
+
+    <TextView
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourScoreTV"
+
+        />
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:src="@drawable/astronaut_high_score"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <EditText
+        android:backgroundTint="@color/White"
+        android:textColorHint="#5CFFFFFF"
+        android:textColor="@color/White"
+        android:layout_margin="30dp"
+        android:id="@+id/etNewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here.."
+        android:padding="16dp"
+        android:maxLength="11"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:id="@+id/save_score_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Score"
+        />
+</LinearLayout>

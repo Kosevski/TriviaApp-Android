@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QuickTrivia</string>
+    <string name="trivia">PLAY QuickTRIVIA</string>
+    <string name="play">PLAY</string>
+    <string name="number_of_questions_desc">How many questions you would like to answer?</string>
+    <string name="select_the_category">Select the category:</string>
+    <string name="select_the_difficulty">Select the difficulty:</string>
+    <string name="finish">FINISH</string>
+
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="high_score">Score Table</string>
+
+
+    <string-array name="Category">
+        <item>Any Category</item>
+        <item>Sport</item>
+        <item>Music</item>
+        <item>Film</item>
+        <item>Geography</item>
+    </string-array>
+
+    <string-array name="Difficulty">
+        <item>Any Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+
+    <string-array name="AmountOfQuestions">
+        <item>Just a few</item>
+        <item>More than a few</item>
+        <item>Not too much</item>
+        <item>A lot of questions</item>
+    </string-array>
+
+
+
+    <string-array name="Answers">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+    </string-array>
+
+
+
+
+
+</resources>

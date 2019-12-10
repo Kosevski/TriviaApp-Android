@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_layout"
+    android:background="@drawable/gradient_animation"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/idea"
+        />
+
+    <TextView
+        android:text="@string/number_of_questions_desc"
+        android:layout_marginTop="40dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="6dp"
+        >
+
+        <Spinner
+            android:id="@+id/AmountSpinner"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/White"
+            android:entries="@array/AmountOfQuestions"
+            android:spinnerMode="dropdown" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:text="@string/select_the_category"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="6dp"
+        >
+
+        <Spinner
+            android:id="@+id/CategorySpinner"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/White"
+            android:entries="@array/Category"
+            android:spinnerMode="dropdown" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:text="@string/select_the_difficulty"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="6dp">
+
+        <Spinner
+            android:id="@+id/DiffSpinner"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/White"
+            android:entries="@array/Difficulty" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/PlayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/play"
+        android:textColor="@color/White"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00FFFFFF"
+        android:textSize="17sp"
+        android:id="@+id/TVScore"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/White"/>
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/navigation_menu"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

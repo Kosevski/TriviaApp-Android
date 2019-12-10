@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:icon="@drawable/ic_notifications_off"
+        android:defaultValue="true"
+        android:key="notifications_on_off"
+        android:summaryOff="You will be getting notifications every day."
+        android:summaryOn="Notifications turned off."
+        android:title="Turn off notifications"/>
+
+</PreferenceScreen>
