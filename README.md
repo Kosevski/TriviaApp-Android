@@ -1,1 +1,1 @@
-# TriviaApp-Android-
+# TriviaApp (Android)
